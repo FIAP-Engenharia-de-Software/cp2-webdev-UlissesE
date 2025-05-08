@@ -9,13 +9,16 @@
 
 function adivinharNumero(max, palpite) {
   max = parseInt(Math.random() * max)
+  let mensagem
+
   if (max == palpite) {
-    let mensagem = "Acertou!"
+    mensagem = "Acertou!"
     return mensagem
   } else {
-    let mensagem = "Errou! Tente novamente!"
+    mensagem = "Errou! Tente novamente!"
     return mensagem
   }
+
 }
 
 
