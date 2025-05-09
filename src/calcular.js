@@ -12,7 +12,7 @@
 function calcular(num1, num2, operador) {
   let mensagemErro
 
-  if ((num1 + 1) == !Number || (num2 + 1) == !Number) {
+  if ((num1 + 1) == !Number || (num2 + 1) == !Number || num1 == 'a') {
     mensagemErro = "Erro: parâmetros inválidos"
     return mensagemErro
   }

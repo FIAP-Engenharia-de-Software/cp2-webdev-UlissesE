@@ -5,6 +5,11 @@
 
 function somar(a, b) {
   let resultado = a + b;
+
+  if (a == undefined || a == null || a == NaN) {
+    let mensagem = "Parâmetro inválido"
+    return mensagem
+  }
   return resultado;
 }
 
